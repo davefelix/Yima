@@ -1,0 +1,95 @@
+<html>
+    <head>
+        <title> Home page </title>
+        <link rel="stylesheet" href"style.css">
+        
+        <style>
+            * {
+                box-sizing: border-box;
+                margin:0;
+            }
+            nav {
+              
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                background-color: rgb(220,220,220);
+                margin: 0;
+                padding: 1.1em;
+            }
+            nav ul {
+                list-style-type: none;
+                padding:0;
+                display: flex;
+                flex-direction: row;
+            }
+            nav ul li {
+                display: block;
+                margin: 3px;
+            }
+            nav ul li button {
+                background color: white;
+                padding:8px;
+                background-color: green;
+                border: 0;
+                border-radius: 5px;
+            }
+            nav ul li button a {
+                text-decoration: none;
+                color: white;
+            }
+            nav ul li button:hover {
+                background-color: blue;
+            }
+            .wel-intro {
+                width:98%;
+                margin: 2px auto 2px auto;
+                text-align: center;
+            }
+            .wel-desc {
+                text-align: center;
+                color: green;
+                
+            }
+        </style>
+    </head>
+    
+    <body>
+        
+    <nav>
+         <img src="hmbs.png" width="50px" align="left">
+        
+           
+            <ul>
+                <li> <button> 
+                    <a href="index.html">Home</a>
+                    </button>
+                </li>
+                <li> <button> 
+                    <a href="login.html">Login</a>
+                    </button>
+                </li>
+                <li> <button> 
+                    <a href="logout.html">Logout</a>
+                    </button>
+                </li>
+                <li> <button> 
+                    <a href="photos.html">Photos</a>
+                    </button>
+                </li>
+            </ul>
+        
+         <img src="gogota.png" width="50px" align="right">
+         </nav>
+         
+         <br> <br>
+         
+         <div class="wel-intro">
+             <h3> Welcome to Home page of our website</h3>
+         </div>
+         <div class="wel-desc">
+             <p> Visit out website to get more information! </p>
+         </div>
+    </body>
+</html>

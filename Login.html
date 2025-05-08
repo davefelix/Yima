@@ -1,0 +1,154 @@
+<html>
+    <head>
+        <title> Login page</title>
+        
+        <style>
+            * {
+                box-sizing: border-box;
+                margin:0;
+            }
+            nav {
+              
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                background-color: rgb(220,220,220);
+                margin: 0;
+                padding: 1.1em;
+            }
+            nav ul {
+                list-style-type: none;
+                padding:0;
+                display: flex;
+                flex-direction: row;
+            }
+            nav ul li {
+                display: block;
+                margin: 3px;
+            }
+            nav ul li button {
+                background color: white;
+                padding:8px;
+                background-color: green;
+                border: 0;
+                border-radius: 5px;
+            }
+            nav ul li button a {
+                text-decoration: none;
+                color: white;
+            }
+            nav ul li button:hover {
+                background-color: blue;
+            }
+            .in-cont {       
+                width: 80%;
+                background-color: green;
+                color: white;
+                padding: 1.3em;
+                margin: 100px auto;
+                border-radius: 5px;                
+            }
+            .in-1 {
+                text-align: center;
+                margin: 20px auto;
+            }
+            .in-2 {
+                
+            }
+            .in-2 div {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                width: 80%;
+                margin: 5px auto;
+            }
+            .log-btn {
+                margin: 40px;          
+            }
+            .log-btn button {
+                padding: 8px;
+                color: white;
+                background-color: black;
+                border: 0;
+                display: inline-block;
+                margin: auto;
+                
+            }
+            .log-btn button:hover {
+                background-color: rgb(50, 50, 50);
+            }
+            .log-btn a:hover .log-btn button {
+                background-color: rgb(50,50,50);
+            }
+            .log-btn a {
+                color: white;
+                text-decoration: none;
+                
+            }
+            input:hover {
+                outline: 2px solid black;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <nav>
+         <img src="hmbs.png" width="50px" align="left">
+        
+           
+            <ul>
+                <li> <button> 
+                    <a href="index.html">Home</a>
+                    </button>
+                </li>
+                <li> <button> 
+                    <a href="login.html">Login</a>
+                    </button>
+                </li>
+                <li> <button> 
+                    <a href="logout.html">Logout</a>
+                    </button>
+                </li>
+                <li> <button> 
+                    <a href="photos.html">Photos</a>
+                    </button>
+                </li>
+            </ul>
+        
+         <img src="gogota.png" width="50px" align="right">
+         </nav>
+         
+         <div class="in-cont">
+           <div class="in-1"><h3>Login to our page</h3></div>
+             <div class="in-2">
+                 
+                 <div>
+                     <label for="fname"> First name: </label>
+                     <input type="text" size="15" id="fname">
+                 </div>
+                 
+                 <div>
+                     <label for="lname"> Last name: </label>
+                     <input type="text" size="15" id="lname">
+                 </div>
+                 
+                 <div>
+                   <label for="email"> email: </label>
+                   <input type="email" size="15"" id="email">
+                 </div>
+                 
+                 <div>
+                  <label for="pass"> Password: </label>
+                  <input type="password" size="15" id="pass">
+                 </div>
+                 
+                 <div class="log-btn">
+                     <button>
+                         <a href="log.html"> Login </a>
+                     </button>
+                 </div>
+             </div>
+         </div>
+    </body>
+</html>

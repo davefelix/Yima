@@ -1,0 +1,120 @@
+<html>
+    <head>
+        <title> Photos page </title>
+        
+        <style>
+            * {
+                box-sizing: border-box;
+                margin:0;
+            }
+            nav {
+              
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: space-between;
+                background-color: rgb(220,220,220);
+                margin: 0;
+                padding: 1.1em;
+            }
+            nav ul {
+                list-style-type: none;
+                padding:0;
+                display: flex;
+                flex-direction: row;
+            }
+            nav ul li {
+                display: block;
+                margin: 3px;
+            }
+            nav ul li button {
+                background color: white;
+                padding:8px;
+                background-color: green;
+                border: 0;
+                border-radius: 5px;
+            }
+            nav ul li button a {
+                text-decoration: none;
+                color: white;
+            }
+            nav ul li button:hover {
+                background-color: blue;
+            }
+            .org-ph {          
+                margin: 15px;
+            }
+            .org-int {
+                text-align: center;                
+                margin: 15px;
+            }
+            .org-pht {              
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: space-around;
+            }
+            .ph {
+                width: 45%;
+                margin:5px;                
+            }
+            .ph img {
+                width: 100%;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <nav>
+         <img src="hmbs.png" width="50px" align="left">
+        
+           
+            <ul>
+                <li> <button> 
+                    <a href="index.html">Home</a>
+                    </button>
+                </li>
+                <li> <button> 
+                    <a href="login.html">Login</a>
+                    </button>
+                </li>
+                <li> <button> 
+                    <a href="logout.html">Logout</a>
+                    </button>
+                </li>
+                <li> <button> 
+                    <a href="photos.html">Photos</a>
+                    </button>
+                </li>
+            </ul>
+        
+         <img src="gogota.png" width="50px" align="right">
+         </nav>
+         
+         <div class="org-ph">
+             <div class="org-int">
+                 <h3> Organizational Photos</h3>
+                 <hr>
+             </div>
+             
+             <div class="org-pht">
+                 
+                 <div class="ph">
+                     <img src="p2.jpeg">
+                 </div>
+                 
+                 <div class="ph">
+                     <img src="p4.jpg">
+                 </div>
+                 
+                 <div class="ph">
+                     <img src="p3.jpeg">
+                 </div>
+                 
+                 <div class="ph">
+                     <img src="p4.jpg">
+                 </div>
+             </div>
+         </div>
+    </body>
+</html>
